@@ -1661,6 +1661,52 @@
       }
     },
     {
+      "name": "SQL Tables",
+      "scope": [
+        "constant.other.table-name.sql"
+      ],
+      "settings": {
+        "foreground": "#EO6C75"
+      }
+    },
+    {
+      "name": "SQL procedure and functions",
+      "scope": [
+        "support.function.aggregate.sql"
+      ],
+      "settings": {
+        "foreground": "#61AEEF"
+      }
+    },
+    {
+      "name": "SQL keywords",
+      "scope": [
+        "keyword.other.DML.sql"
+      ],
+      "settings": {
+        "foreground": "#C679DD"
+      }
+    },
+    {
+      "name": "SQL String quote",
+      "scope": [
+        "string.quoted.double.sql",
+        "string.quoted.single.sql"
+      ],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "SQL keyword comparison",
+      "scope": [
+        "keyword.operator.comparison.sql"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
       "name": "types",
       "scope": [
         "support.type.swift",
